@@ -11,5 +11,39 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #466dcf;
+    background: #4d4e4f;
+}
+.drag_drop{
+    border: 2px dashed #fff;
+    height: 500px;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.drag_drop .icon{
+    font-size: 100px;
+    color: #fff;
+}
+.drag_drop h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.drag_drop span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+.drag_drop button{
+    font-size: 20px;
+    font-weight: 350;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
 }
